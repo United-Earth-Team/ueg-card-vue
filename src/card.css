@@ -1,0 +1,80 @@
+.d,
+.e {
+    text-transform: uppercase
+}
+
+.a {
+    fill: #163c72;
+}
+
+.b {
+    fill: #3567a3;
+}
+
+.c,
+.e {
+    font-size: 12px;
+}
+
+.c,
+.d,
+.e,
+.i,
+.j,
+.n {
+    fill: #fff;
+}
+
+.c,
+.j {
+    font-family: BarlowCondensed-Regular, Barlow Condensed;
+}
+
+.d {
+    font-size: 24px;
+}
+
+.d,
+.e {
+    font-family: BarlowCondensed-SemiBold, Barlow Condensed;
+    font-weight: 600;
+}
+
+.f {
+    letter-spacing: 0em;
+}
+
+.g {
+    letter-spacing: -0.05em;
+}
+
+.h {
+    letter-spacing: -0.06em;
+}
+
+.j {
+    font-size: 13px;
+    letter-spacing: -0.06em;
+}
+
+.k {
+    letter-spacing: -0.05em;
+}
+
+.l {
+    letter-spacing: -0.03em;
+}
+
+.m {
+    letter-spacing: -0.05em;
+}
+
+.n {
+    font-size: 10px;
+    font-family: BarlowCondensed-Medium, Barlow Condensed;
+    font-weight: 500;
+}
+
+.o {
+    letter-spacing: -0.01em;
+}

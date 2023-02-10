@@ -1,0 +1,39 @@
+/* barlow-condensed-regular */
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: regular;
+  src: url('//lib.baomitu.com/fonts/barlow-condensed/barlow-condensed-regular.eot');
+  /* IE9 Compat Modes */
+  src: local('Barlow Condensed'), local('BarlowCondensed-Normal'),
+    url('//lib.baomitu.com/fonts/barlow-condensed/barlow-condensed-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('//lib.baomitu.com/fonts/barlow-condensed/barlow-condensed-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('//lib.baomitu.com/fonts/barlow-condensed/barlow-condensed-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('//lib.baomitu.com/fonts/barlow-condensed/barlow-condensed-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('//lib.baomitu.com/fonts/barlow-condensed/barlow-condensed-regular.svg#BarlowCondensed') format('svg');
+  /* Legacy iOS */
+}
+
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --tw-gradient-from: #06b6d4;
+  --tw-gradient-to: #3b82f6;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+
+  scroll-behavior: smooth;
+
+}
+
+#font-bc {
+  font-family: BarlowCondensed-Regular, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+}
